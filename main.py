@@ -58,7 +58,6 @@ def update_graphs(selected_category):
 
     return fig_rev, fig_scatter
 
-
 # 5. Executar o servidor (Configurado para ambiente Local/PyCharm)
 if __name__ == '__main__':
     app.run(debug=True)
