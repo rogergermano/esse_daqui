@@ -4,7 +4,7 @@ from dash import Dash, dcc, html, Input, Output
 
 # 1. Carregar os dados
 try:
-    df = pd.read_csv('.venv/ecommerce_estatistica.csv')
+    df = pd.read_csv('ecommerce_estatistica.csv')
 except FileNotFoundError:
     df = pd.read_csv('/content/ecommerce_estatistica.csv')
 
